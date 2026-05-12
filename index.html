@@ -194,6 +194,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
     <div class="nav-item" onclick="go('empresas',this)"><span class="nav-dot"></span>Por empresa</div>
 
     <div class="nav-group">Diagnóstico</div>
+    <div class="nav-item" onclick="go('time',this)"><span class="nav-dot"></span>Time de R&S</div>
     <div class="nav-item" onclick="go('alertas',this)"><span class="nav-dot"></span>Alertas</div>
   </nav>
 
@@ -546,6 +547,152 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
   </div>
 </section>
 
+
+<!-- ══ TIME DE R&S ══════════════════════════════════ -->
+<section id="page-time" class="page">
+  <div class="ph">
+    <div><div class="ph-title">Time de R&S</div><div class="ph-sub">Análise de capacidade e carga operacional · 1 CLT + 2 estagiários</div></div>
+    <div class="tag">3 pessoas · 16 meses</div>
+  </div>
+
+  <!-- Estrutura do time -->
+  <div class="card" style="margin-bottom:14px">
+    <div class="card-head"><div class="card-title">Estrutura do time</div></div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px">
+      <div style="background:var(--bg3);border:1px solid rgba(79,156,249,0.25);border-radius:var(--r2);padding:16px 18px">
+        <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--acc);margin-bottom:8px;font-family:'Syne',sans-serif">CLT · Sênior</div>
+        <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--text);margin-bottom:6px">Recrutadora</div>
+        <div style="font-size:11px;color:var(--muted);line-height:1.7">
+          Gestão dos processos<br>
+          Entrevistas RH<br>
+          Relacionamento com gestores<br>
+          Estratégia de R&S
+        </div>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--line2);border-radius:var(--r2);padding:16px 18px">
+        <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:8px;font-family:'Syne',sans-serif">Estágio · 1</div>
+        <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--text);margin-bottom:6px">Estagiário(a)</div>
+        <div style="font-size:11px;color:var(--muted);line-height:1.7">
+          Triagem de currículos<br>
+          Agendamentos<br>
+          Suporte em entrevistas<br>
+          Alimentação do ATS
+        </div>
+      </div>
+      <div style="background:var(--bg3);border:1px solid var(--line2);border-radius:var(--r2);padding:16px 18px">
+        <div style="font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:8px;font-family:'Syne',sans-serif">Estágio · 2</div>
+        <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;color:var(--text);margin-bottom:6px">Estagiário(a)</div>
+        <div style="font-size:11px;color:var(--muted);line-height:1.7">
+          Triagem de currículos<br>
+          Agendamentos<br>
+          Suporte em entrevistas<br>
+          Alimentação do ATS
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPIs de carga -->
+  <div class="kg4">
+    <div class="kpi blue"><div class="kpi-label">Vagas por pessoa</div><div class="kpi-val blue">18</div><div class="kpi-sub">no período total (54 ÷ 3)</div></div>
+    <div class="kpi blue"><div class="kpi-label">Contratações/pessoa</div><div class="kpi-val blue">27,7</div><div class="kpi-sub">83 contratações ÷ 3</div></div>
+    <div class="kpi white"><div class="kpi-label">Contratações/mês/pessoa</div><div class="kpi-val">1,7</div><div class="kpi-sub">média ao longo dos 16 meses</div></div>
+    <div class="kpi white"><div class="kpi-label">Touchpoints/mês/pessoa</div><div class="kpi-val">29</div><div class="kpi-sub">triagens + entrevistas + coordenações</div></div>
+  </div>
+
+  <!-- Volume operacional -->
+  <div class="g2">
+    <div class="card">
+      <div class="card-head"><div class="card-title">Volume total de interações</div><div class="ctag">16 meses</div></div>
+      <div style="display:flex;flex-direction:column;gap:0">
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--line)">
+          <span style="font-size:12px;color:var(--muted)">Triagens realizadas</span>
+          <span style="font-family:'Syne',sans-serif;font-weight:700;font-size:16px">611</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--line)">
+          <span style="font-size:12px;color:var(--muted)">Entrevistas RH conduzidas</span>
+          <span style="font-family:'Syne',sans-serif;font-weight:700;font-size:16px">472</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--line)">
+          <span style="font-size:12px;color:var(--muted)">Coordenações com gestores</span>
+          <span style="font-family:'Syne',sans-serif;font-weight:700;font-size:16px">159</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--line)">
+          <span style="font-size:12px;color:var(--muted)">Coordenações com diretores</span>
+          <span style="font-family:'Syne',sans-serif;font-weight:700;font-size:16px">60</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px solid var(--line)">
+          <span style="font-size:12px;color:var(--muted)">NC a reagendar (retrabalho)</span>
+          <span style="font-family:'Syne',sans-serif;font-weight:700;font-size:16px;color:var(--amber)">68</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:11px 0">
+          <span style="font-size:12px;font-weight:500;color:var(--text)">Total touchpoints</span>
+          <span style="font-family:'Syne',sans-serif;font-weight:700;font-size:20px;color:var(--acc)">1.370</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><div class="card-title">Carga mensal estimada</div><div class="ctag">média por mês</div></div>
+      <div class="cw" style="height:230px"><canvas id="cTimeCarga" role="img" aria-label="Carga mensal do time"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Benchmark e avaliação -->
+  <div class="card">
+    <div class="card-head"><div class="card-title">Avaliação de capacidade vs. benchmark de mercado</div></div>
+    <table class="tbl">
+      <thead><tr>
+        <th>Indicador</th><th class="c">Time liveSEO</th><th class="c">Benchmark mercado</th><th class="c">Avaliação</th>
+      </tr></thead>
+      <tbody>
+        <tr><td>Vagas abertas simultâneas por recrutador</td><td class="c mono">~10</td><td class="c" style="color:var(--muted)">8–15 vagas</td><td class="c"><span class="pill blue">dentro</span></td></tr>
+        <tr><td>Contratações por recrutador/mês</td><td class="c mono">1,7</td><td class="c" style="color:var(--muted)">1,5–3 / mês</td><td class="c"><span class="pill blue">dentro</span></td></tr>
+        <tr><td>Conversão geral topo → contratado</td><td class="c mono">8,4%</td><td class="c" style="color:var(--muted)">5–10%</td><td class="c"><span class="pill blue">dentro</span></td></tr>
+        <tr><td>Taxa de proposta recusada</td><td class="c mono">31,3%</td><td class="c" style="color:var(--muted)">&lt;15%</td><td class="c"><span class="pill red">alto</span></td></tr>
+        <tr><td>Taxa NC em entrevista RH</td><td class="c mono">14,4%</td><td class="c" style="color:var(--muted)">&lt;10%</td><td class="c"><span class="pill amber">atenção</span></td></tr>
+        <tr><td>Headcount preenchido</td><td class="c mono">102,5%</td><td class="c" style="color:var(--muted)">&gt;80%</td><td class="c"><span class="pill blue">acima</span></td></tr>
+        <tr><td>TTF médio</td><td class="c mono">44d</td><td class="c" style="color:var(--muted)">30–45d</td><td class="c"><span class="pill amber">atenção</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Análise qualitativa -->
+  <div class="g2">
+    <div class="card">
+      <div class="card-head"><div class="card-title">Pontos fortes do time</div></div>
+      <div class="alert blue" style="margin-bottom:8px"><div class="alert-icon">◆</div><div>
+        <div class="alert-title">102,5% do headcount preenchido</div>
+        <div class="alert-body">Contrataram 83 pessoas para 81 aberturas — superaram o planejado mesmo sendo um time enxuto.</div>
+      </div></div>
+      <div class="alert blue" style="margin-bottom:8px"><div class="alert-icon">◆</div><div>
+        <div class="alert-title">Triagem eficiente (77,3% para entrevista RH)</div>
+        <div class="alert-body">A qualificação inicial está bem calibrada — a maioria dos triados chega à entrevista, sem desperdício de pipeline.</div>
+      </div></div>
+      <div class="alert blue"><div class="alert-icon">◆</div><div>
+        <div class="alert-title">54 vagas gerenciadas em 16 meses</div>
+        <div class="alert-body">Média de ~3,4 novas vagas/mês com perfis variados — de estágio a DevOps — sem perda de qualidade aparente no funil.</div>
+      </div></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><div class="card-title">Limitações estruturais (não de execução)</div></div>
+      <div class="alert amber" style="margin-bottom:8px"><div class="alert-icon">▲</div><div>
+        <div class="alert-title">Proposta recusada: causa salarial/estrutural</div>
+        <div class="alert-body">31,3% de recusa não é falha de recrutamento — indica desalinhamento de pacote de remuneração ou TTF alto demais para o mercado.</div>
+      </div></div>
+      <div class="alert amber" style="margin-bottom:8px"><div class="alert-icon">▲</div><div>
+        <div class="alert-title">68 NCs geram retrabalho significativo</div>
+        <div class="alert-body">Cada NC é um agendamento perdido que consome tempo do time. Com 2 estagiários operando agendamentos, isso é sentido diretamente na carga.</div>
+      </div></div>
+      <div class="alert amber"><div class="alert-icon">▲</div><div>
+        <div class="alert-title">Vagas técnicas demandam mais tempo de sourcing</div>
+        <div class="alert-body">DevOps (156d), Fullstack Pleno (57d) e Designer (55d) exigem um nível de especialização que vai além do que um time enxuto consegue dedicar com vagas operacionais em paralelo.</div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
 <!-- ══ ALERTAS ═══════════════════════════════════════ -->
 <section id="page-alertas" class="page">
   <div class="ph"><div><div class="ph-title">Alertas & diagnóstico</div><div class="ph-sub">Pontos críticos e recomendações</div></div></div>
@@ -756,6 +903,21 @@ function buildCharts(){
       ]},
     options:{...base,plugins:{legend:{display:true,labels:{color:TC,font:{size:11},boxWidth:10}}},
       scales:{r:{grid:{color:GC},ticks:{display:false},pointLabels:{color:TC,font:{size:10}},angleLines:{color:GC}}}}
+  });
+
+
+  // Time carga mensal
+  new Chart(document.getElementById('cTimeCarga'),{
+    type:'bar',
+    data:{
+      labels:['Triagens','Entrev. RH','Coord. gestor','Coord. diretor','NC (retrabalho)'],
+      datasets:[
+        {label:'Total período',data:[611,472,159,60,68],backgroundColor:[ACC,ACC,'rgba(79,156,249,0.6)','rgba(79,156,249,0.4)',AMB],borderRadius:4},
+      ]
+    },
+    options:{...base,
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:ctx=>' '+ctx.parsed.y+' ('+Math.round(ctx.parsed.y/16)+'/mês)'}}},
+      scales:{x:{...sX,ticks:{...sX.ticks,maxRotation:20,font:{size:10}}},y:{...sY,beginAtZero:true}}}
   });
 
   // Perdas rep donut
